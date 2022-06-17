@@ -1,1 +1,30 @@
 /* TODO: Make it awesome */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d5b6b6;
+  padding: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20%;
+  border: 1px solid #e5e5e5;
+
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #d5b6b6;
+  padding: 10px;
+  border-top: 1px solid #e5e5e5;
+}
